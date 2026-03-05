@@ -51,7 +51,7 @@ a{
 }
 .hd2{
     background-color: white;
-    width: 25cm;
+    width: 19cm;
     align-self: center;
     justify-content: center;
     padding-top: 0.2cm;
@@ -68,4 +68,36 @@ a{
     height: 1.3cm;
     border-radius: 15px;
     background-color: white;
+}
+.signin{
+    height: 1.5cm;
+    width: 19cm;
+    padding-top: 0.05cm;
+    padding-bottom: 0.2cm;
+    margin-left: 9.5cm;
+    border-radius: 15px;
+    background-color: darkblue;
+    color: white;
+}
+.signin img{
+    height: 1cm;
+    vertical-align: middle;
+    padding-left: 0.5cm;
+}
+.signin button {
+    text-decoration: none;
+    background-color: darkblue;
+    color: white;
+    border-style: none;
+    border-radius: 15px;
+}
+.signin a{
+    color: white;
+}
+.container img{
+    height: 4cm;
+    width: 5cm;
+}
+.container{
+    display: flex;
 }
